@@ -16,7 +16,7 @@ const userSchema = new mongoose.Schema({
         trim: true, // este trim saca los espacios de los datos que le coloques
         lowercase: true, //lowercase guarda los datos que le das en minuscula, por mas que se lo des en mayuscula
     },
-    lastname: {
+    lastName: {
         type: String,
         required: true,
         maxlength:20, 
